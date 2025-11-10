@@ -128,3 +128,29 @@ footer {
     width: 100%;
   }
 }
+/* ===== LATAR BELAKANG HALAMAN UTAMA ===== */
+.home-bg {
+  background: linear-gradient(to bottom right, rgba(68, 75, 180, 0.301), rgba(56, 124, 180, 0.568)),
+              url('background.PNG');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.home-bg .hero h2 {
+  color: #ffffff;
+}
+
+.home-bg .hero p {
+  color: #ffffff;
+}
+
+.home-bg .btn {
+  background: #004aad;
+  color: #ffffff;
+}
+
+.home-bg .btn:hover {
+  background: #374dcc;
+}
